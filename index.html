@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>3D Visualisador</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+				
+				<h1>Hola buenas! ,Esta pagina esta diseñada para aprender y entretenerse.</h1>
+				<p>la hice para la materia de la uai codeado en HTML5 + CSS3 hosteado desde githubpages diseñado por <a href="https://rodrifus.github.io/Portfolio-Digital.github.io/">Fuster Rodrigo</a>
+				</p>
+				<p>Se recomienda no cargar todos los modelos juntos, un saludo !</p>
+				</div>
+			
+
+		<!-- Main -->
+			<div id="main">
+
+				<header class="container-medium">	
+					
+					<h2>Neuronas 3D.</h2>	
+					<div class="sketchfab-embed-wrapper"> <iframe title="Neurons" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/20e930a5fae5457fa6d1738afa00c7bb/embed?autospin=1&annotations_visible=1"> </iframe> </div>
+						<h2>Nervios Craneales. </h2>
+					<div class="sketchfab-embed-wrapper"> <iframe title="Cranial Nerves" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/82d87cb89d6c48f0984a59c4f2a4cf9a/embed?annotations_visible=1"> </iframe> </div>
+						<h2>Anatomia del Cerebro Humano. </h2>
+					<div class="sketchfab-embed-wrapper"> <iframe title="Anatomy of the Human Brain 2019" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/4870387fd52b4706a87b1f3337356579/embed?autospin=1&annotations_visible=1&ui_watermark_link=0&ui_watermark=0"> </iframe> </div>
+						<h2>Cortex Cerebral. </h2>
+					<div class="sketchfab-embed-wrapper"> <iframe title="Motor and Sensory Areas of the Cerebral Cortex" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/300c488c013f4d41ad5acab9ef08e50a/embed?autospin=1&annotations_visible=1"> </iframe> </div>
+						<h2>Regiones del Cerebro. </h2>
+					<div class="sketchfab-embed-wrapper"> <iframe title="Regions of the brain" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/b2aac93ee4c440ed911f5765158edc9f/embed?autospin=1&annotations_visible=1"> </iframe> </div>
+					
+					
+
+				
+				</div>
+					<!-- Initialize the viewer -->
+					
+    				<script type="text/javascript">
+    				var iframe = document.getElementById( 'api-frame' );
+    				var uid = '7w7pAfrCfjovwykkEeRFLGw5SXS';
+    				var client = new Sketchfab( iframe );
+    					client.init( uid, {
+        					success: function onSuccess( api ){
+           						 api.start();
+            						api.addEventListener( 'viewerready', function() {  console.log( 'Viewer is ready' );
+										});},error: function onError() {console.log( 'Viewer error' );}} );
+    			</script>	
+					
+				</header>
+
+			
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container medium">
+
+					
+
+					<p>si tenes alguna recomendacion tambien podes contactarme por.</p>
+
+					<ul class="icons">
+						<li><a href="https://github.com/rodrifus" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; Visualizador de entornos 3D. All rights are free.</li><li>Diseño: Fuster Rodrigo<a href="https://rodrifus.github.io/Portfolio-Digital.github.io/"></a></li>
+					</ul>
+
+				</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
